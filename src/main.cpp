@@ -16,7 +16,6 @@ int main(){
 
     radar.checkForViolations("ABC1234", "2026-07-23", PRIVATE, 94, true);
 
-
     radar.checkForViolations("BUS9999", "2026-07-23", BUS, 65, false);
 
     radar.checkForViolations("TRK5555", "2026-07-23", TRUCK, 55, true);

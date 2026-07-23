@@ -49,7 +49,7 @@ void Radar::getAllFines(){
 
 void Radar::getAllViolations(){
     for(const auto& [violation, count] : violations){
-        cout << "There has been " << count << " cases of " << violation << " violations." << endl;
+        cout << count << " " << violation << " violation(s) happened." << endl;
     }
 
     cout << endl;
